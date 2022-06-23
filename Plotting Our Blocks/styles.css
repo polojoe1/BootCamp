@@ -1,0 +1,54 @@
+.container {
+    background-color: gray;
+    height: 500px;
+    padding-top: 20px;
+}
+.header {
+    display: block;
+    background-color: green;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.body {
+    display: flex;
+}
+.left {
+    background-color: blue;
+    height: 250px;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right {
+    background-color: red;
+    height: 360px;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 125px;
+    width: 30%;
+    display: inline-block;
+    margin: 5px;
+    padding-left: 3px;
+    
+    
+}
+.rightTop {
+    height: 168px;
+    width: 100%;
+    
+}
+.rightBottom {
+    height: 100px;
+    width: 96%;
+    background-color: purple;
+    margin-left: 10px;
+    
+}
