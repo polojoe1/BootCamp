@@ -1,0 +1,39 @@
+.webpage {
+    width: 100%;
+    height: 550px;
+    background-color: rgb(164, 246, 246);
+    display: block
+    
+    
+}
+h1 {
+    text-align: center;
+}
+body{
+    background-color: rgb(164, 246, 246);
+}
+.webpage > div {
+    height: 33%;
+    width: 90%;
+    justify-content: space-around;
+    margin-left: 30px;
+    align-items: center;
+    
+}
+.one {
+    background-color: rgb(40, 192, 242);
+    display: flex;
+    margin-bottom: 5px;
+}
+.two {
+    background-color: rgb(234, 91, 198);
+    display: flex;
+    margin-bottom: 5px;
+}
+.three {
+    background-color: rgb(9, 241, 152);
+    display: flex;
+}
+img {
+    height: 90%;
+}
