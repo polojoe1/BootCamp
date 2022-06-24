@@ -1,0 +1,34 @@
+.userID {
+    width: 500px;
+    height: 290px;
+    background-color: aqua;
+    border: 3px solid gray;
+}
+.top{
+    width: 100%;
+    height: 25%;
+}
+.bottom {
+    width: 98%;
+    height: 69%;
+    background-color: beige;
+    padding-left: 10px;
+    
+}
+.small {
+    height: 16px;
+    margin-right: 5px;
+}
+.gear {
+    height: 15px;
+    margin-right: 5px;
+}
+h3 {
+    padding-top: 29px;
+}
+.pic {
+    position: absolute;
+    height: 100px;
+    top: 29px;
+    left: 20px;
+}
