@@ -26,11 +26,11 @@
                 <img src="joe.jpeg" alt="me" class="joe">
             </div>
             <div class="idCardBottom">
-                <h1>Joseph Coats</h1>
+                <h1 id="Joe">Joseph Coats</h1>
                 <img class="small" src="map-marker.png" alt="hi">Texas
                 <p>Developer | Engineer | Problem Solver</p>
                 <p>Master of the Internet</p>
-                <img src="gear.png" alt="gear" class="gear"><a href="#">edit profile</a>
+                <img src="gear.png" alt="gear" class="gear"><a href="#" onclick="nameGet()">edit profile</a>
             </div>
         </div>
         <div class="education">
@@ -47,15 +47,15 @@
     <div class="right">
         <div class="rightTop">
             <div class="requestTop">
-                <h4 class="dos">2</h4>
+                <h4 id="dos" class="dos">2</h4>
                 <h4>Connections Requests</h4>
             </div>
             <div class="requestBottom">
-                <div class="why">
-                    <img src="todd-s.jpg" alt="tod" class="Todd">Todd E <img src="accept-circle.png" alt="circle" class="check"><img src="close-circle.png" alt="no" class="check">
+                <div id="Top" class="why">
+                    <img src="todd-s.jpg" alt="tod" class="Todd">Todd E <img onclick="removeMe()" id="topCircle" src="accept-circle.png" alt="circle" class="check"><img onclick="removeMe()" id="topCircle" src="close-circle.png" alt="no" class="check">
                 </div>
-                <div class="me">
-                        <img src="phil-s.jpg" alt="phil" class="phil">Phil K <img src="accept-circle.png" alt="circle" class="check"><img src="close-circle.png" alt="no" class="check">
+                <div id="Butt" class="me">
+                        <img src="phil-s.jpg" alt="phil" class="phil">Phil K <img onclick="removeMe2()" src="accept-circle.png" alt="circle" class="check"><img onclick="removeMe2()" src="close-circle.png" alt="no" class="check">
                     </div>
             </div>
         </div>
@@ -83,5 +83,6 @@
         </div>
     </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
